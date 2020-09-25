@@ -1,0 +1,125 @@
+@media screen and (max-width: 992px) {
+    .bg_lady1 {
+        left: 0;
+    }
+
+    .bg_lady2 {
+        right: 0px;
+    }
+
+    .about__container {
+        padding: 0 30px;
+    }
+
+    .catalog__card-container {
+        justify-content: space-evenly;
+    }
+
+    .catalog__card {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .header__menu {
+        display: none;
+    }
+
+    .hero {
+        background-image: url('../img/bg_layer_960.png');
+        background-size: contain;
+    }
+
+    .hero::after {
+        background-image: url('../img/bg_layer_960_mask.png');
+        background-size: contain;
+    }
+
+    .hero__btn:first-child {
+        margin-right: 20px;
+    }
+
+    .about__container {
+        padding: 0 30px;
+    }
+
+    .how-to-order__card-point_end:before {
+        top: 37%;
+    }
+
+    .how-to-order__card-text {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 943px){
+    .catalog__card {
+        margin-right: 0px;
+    }
+    
+    .catalog__card:not(:nth-child(2n)) {
+        margin-right: 20px;
+    }
+
+    .catalog__card-container {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .hero__btn-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero__btn {
+        width: 320px;
+        height: 66px;
+    }
+
+    .hero__btn:first-child {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .hero__container {
+        padding: 91px 0 69px;
+    }
+
+    .hero__title {
+         font-size: 24px;
+         font-weight: 300;
+         letter-spacing: 0.24px;
+    }
+
+    .hero__title span {
+        font-size: 57px;
+        font-weight: 700;
+    }
+
+    .hero__text {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    tr td:not(:first-child) {
+        width: 12%;
+    }
+
+    .popup-modal {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .catalog__btn:first-child {
+        margin-bottom: 10px;
+    }
+
+    .catalog__card {
+        margin-right: 0px !important;
+    }
+}
